@@ -1,0 +1,57 @@
+body{
+    background-image: url(img/portfolio\ 2.png);
+    margin: 100px 100px;
+}
+
+h1, h4, button {
+    font-size: 24px;
+    font-weight: bold;
+    animation: slideUp 1s ease-out;
+    position: relative;
+}
+
+h1{
+    font-size: 500px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    padding: 10px 5px;  
+}
+
+.welcome{
+    font-size: 100px;
+}
+
+button{
+    border-radius: 15px;
+    margin-left: 500px;
+    cursor: pointer;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+}
+#btn:hover{
+    transition: background-color 0.2s ease-in-out;
+    background-color: rgb(17, 87, 17);
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
